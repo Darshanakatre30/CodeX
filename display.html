@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dipaiay and Position</title>
+    <style>
+        #body{
+            border-width: 5px;
+            border-style: solid;
+            border-color: black;
+        }
+        #para1{
+            height:200px;
+            width:200px;
+            background-color:aquamarine;
+            color: rgb(238, 63, 63);
+            margin-left: 5px;
+        }
+        #para2{
+            height:200px;
+            width:200px;
+            background-color:rgb(58, 185, 96);
+            color: rgb(226, 106, 142);
+            position:relative;
+            bottom:80px;
+            left:70px;
+            margin-left: 5px;
+
+        }
+        #para3{
+            height:200px;
+            width:200px;
+            background-color:rgb(214, 247, 70);
+            color: rgb(77, 11, 233);
+            margin-left: 5px;
+
+            
+        }
+        #para4{
+            height:200px;
+            width:200px;
+            background-color:rgb(80, 226, 66);
+            color: rgb(77, 11, 233);
+            display:inline-block;
+            margin-left: 5px;
+            position:absolute;
+            top:400px;
+            left:200px;
+
+        }
+        #para5{
+            height:150px;
+            width:150px;
+            background-color:rgb(223, 132, 14);
+            color: rgb(77, 11, 233);
+            display:inline-block;
+            margin-left: 50px;
+        }
+        #para6{
+            height:150px;
+            width:200px;
+            background-color:rgb(162, 247, 27);
+            color: rgb(248, 27, 75);
+            display:inline-block;
+            z-index: -1;
+            position:absolute;
+            left:50px;
+        }
+
+
+
+    </style>
+</head>
+<body id="body">
+    <h1 id="para1">block</h1>
+    <h1 id ="para2">block</h1>
+    <h2 id="para3">inline</h2>
+    <h2 id="para4">inline</h2>
+    <h2 id="para5">inline</h2>
+    <h2 id="para6">z index</h2>
+</body>
+</html>
